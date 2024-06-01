@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="IMAGES/assets (3).png" />
+    <title>Sei</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="work.css" />
+  </head>
+  <body>
+    <nav>
+      <ul class="sidebar">
+        <li onclick="hide()">
+          <a
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#00000"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              /></svg
+          ></a>
+        </li>
+        <li><input id="input-mobile" type="search" placeholder="Search Here"></input></li>
+        <li onclick="home()"><a>Home</a></li>
+        <li onclick="scrollsei2()"><a >About Sei</a></li>
+        <li onclick="teams()"><a>Teams</a></li>
+      </ul>
+
+      <ul>
+        <img src="IMAGES/assets (3).png" alt="" />
+        <li onclick="home2()" class="hidemobile"><a>Home</a></li>
+        <li onclick="scrollsei()" class="hidemobile"><a>About Sei</a></li>
+        <li onclick="teams2()" class="hidemobile"><a>Teams</a></li>
+        <li class="hidemobile"><input id="input-desktop" placeholder="Search Here" type="search"></input></li>
+        <li class="menu" onclick="show()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#e8eaed"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              /></svg
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="section-one">
+        <img class="banner" src="./IMAGES/banner.jpg" alt="">
+        <!-- content start -->
+        <div class="section-content">
+          <div class="hero-content">
+            <h1>Welcome to SEI</h1>
+            <p class="mt-1">
+              Welcome to the official website of SEI, Indonesia’s premier
+              esports team. Dive into the world of competitive gaming where
+              passion meets performance, and legends are born. Our platform is
+              designed to keep you informed and entertained, providing
+              comprehensive insights into our team's journey, achievements, and
+              future endeavors.
+            </p>
+            <p class="mt-1">
+              Join our growing community of fans and gamers. Engage with us on
+              social media, participate in events, and never miss an update. SEI
+              is more than just a team; it’s a movement. Be part of the
+              excitement and help us shape the future of esports.
+            </p>
+          </div>
+
+          <div class="hero-image">
+            <img src="./IMAGES/assets (3).png" alt="image" />
+          </div>
+        </div>
+        <!-- content end -->
+      </section>
+
+      <section id="section-three">
+        <hr class="mt-1 mb-1" />
+
+        <!-- content start -->
+        <div class="section-content">
+          <div class="card">
+            <div class="card-image">
+              <img src="./IMAGES/natus.png" alt="natus" />
+            </div>
+            <div class="card-content mt-1">
+              <h3>Natus Vincere</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aperiam eaque quibusdam aspernatur maiores reprehenderit quas.
+              </p>
+              <button onclick="member1()" class="btn btn-outline mt-1">View team</button>
+            </div>
+          </div>
+          
+          <div class="popup">
+            <div class="icon">
+            <img src="./IMAGES/natus.png" alt="">
+          </div>
+            <a class="close-btn" onclick="memberhide()"><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#00000"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              /></svg
+          ></a>
+            <h2>Natus Vincere</h2>
+            <div class="roster">
+            <img src="./IMAGES/levi.png" alt="">
+            <p>Levi</p>
+            <img src="./IMAGES/shizuku.png" alt="">
+            <p>Shizuku</p>
+            <img src="./IMAGES/achapi.png" alt="">
+            <p>Achapi</p>
+          </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">
+              <img src="./IMAGES/FUT.png" alt="FUt" />
+            </div>
+            <div class="card-content mt-1">
+              <h3>FUT ESPORTS</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aperiam eaque quibusdam aspernatur maiores reprehenderit quas.
+              </p>
+              <button onclick="member2()" class="btn btn-outline mt-1">View team</button>
+            </div>
+          </div>
+
+
+          <div class="popup1">
+            <div class="icon1">
+            <img src="./IMAGES/FUT.png" alt="">
+          </div>
+            <a class="close-btn1" onclick="memberhide2()"><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#00000"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              /></svg
+          ></a>
+            <h2>FUT Esport</h2>
+            <div class="roster1">
+            <img src="./IMAGES/drage.png" alt="">
+            <p>Levi</p>
+            <img src="./IMAGES/og.png" alt="">
+            <p>Shizuku</p>
+            <img src="./IMAGES/rama.png" alt="">
+            <p>Achapi</p>
+          </div>
+          </div>
+
+
+
+          <div class="card">
+            <div class="card-image">
+              <img src="./IMAGES/Queso.png" alt="queso" />
+            </div>
+            <div class="card-content mt-1">
+              <h3>Team Queso</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aperiam eaque quibusdam aspernatur maiores reprehenderit quas.
+              </p>
+              <button onclick="member3()" class="btn btn-outline mt-1">View team</button>
+            </div>
+          </div>
+
+
+          <div class="popup2">
+            <div class="icon2">
+            <img src="./IMAGES/Queso.png" alt="">
+          </div>
+            <a class="close-btn2" onclick="memberhide3()"><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#ffff"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              /></svg
+          ></a>
+            <h2>Team Queso</h2>
+            <div class="roster2">
+            <img src="./IMAGES/bryan.png" alt="">
+            <p>Bryan</p>
+            <img src="./IMAGES/jxcr.png" alt="">
+            <p>Jxcr</p>
+            <img src="./IMAGES/rhz.png" alt="">
+            <p>Rhz</p>
+          </div>
+          </div>
+
+
+          <div class="card">
+            <div class="card-image">
+              <img src="./IMAGES/SK.png" alt="skgaming" />
+            </div>
+            <div class="card-content mt-1">
+              <h3>SK Gaming</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Aperiam eaque quibusdam aspernatur maiores reprehenderit quas.
+              </p>
+              <button onclick="member4()" class="btn btn-outline mt-1">View team</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="popup3">
+          <div class="icon3">
+          <img src="./IMAGES/SK.png" alt="">
+        </div>
+          <a class="close-btn3" onclick="memberhide4()"><svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#00000"
+          >
+            <path
+              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+            /></svg
+        ></a>
+          <h2>SK Gaming</h2>
+          <div class="roster3">
+          <img src="./IMAGES/yoshi.png" alt="">
+          <p>Bryan</p>
+          <img src="./IMAGES/joker.png" alt="">
+          <p>Jxcr</p>
+          <img src="./IMAGES/LeNain.png" alt="">
+          <p>Rhz</p>
+        </div>
+        </div>
+
+        <!-- content end -->
+      </section>
+    </main>
+
+    <footer>
+      <div class="all">
+        <div class="atas">
+          <div class="follow">
+            <p>Follow Us:</p>
+            <div class="sosial">
+              <a href="https://www.twitter.com/"><img src="SOCIAL_MEDIA/Colorful/twitter.png" alt="" /></a>
+              <a href="https://www.instagram.com/"><img src="SOCIAL_MEDIA/Colorful/instagram.png" alt="" /></a>
+              <a href="https://www.youtube.com/"><img src="SOCIAL_MEDIA/Colorful/youtube.png" alt="" /></a>
+              <a href="https://id-id.facebook.com/"><img src="SOCIAL_MEDIA/Colorful/fb.png" alt="" /></a>
+            </div>
+          </div>
+
+          <div class="idk">
+            <h2>Sei</h2>
+            <div class="info">
+              <p>Test your skills with our curated selection of
+								games available right here on our website.
+								Compete against other players, climb the
+								leaderboards, and see where you stand among the
+								best.Whether you’re a casual player or a competitive
+								enthusiast, there’s a place for you in our
+								community.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="line"></div>
+        <div class="created">
+          <p onclick="scrollsei()">Crated by Robert</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function show() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "flex";
+      }
+
+      function hide() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.style.display = "none";
+      }
+
+      function member1() {
+        const member = document.querySelector(".popup");
+        member.style.display = "block";
+      }
+
+      function memberhide() {
+        const member = document.querySelector(".popup");
+        member.style.display = "none";
+      }
+
+      function member2() {
+        const member1 = document.querySelector(".popup1");
+        member1.style.display = "block";
+      }
+
+      function memberhide2() {
+        const member1 = document.querySelector(".popup1");
+        member1.style.display = "none";
+      }
+
+      function member3() {
+        const member2 = document.querySelector(".popup2");
+        member2.style.display = "block";
+      }
+
+      function memberhide3() {
+        const member2 = document.querySelector(".popup2");
+        member2.style.display = "none";
+      }
+
+      function member4() {
+        const member4 = document.querySelector(".popup3");
+        member4.style.display = "block";
+      }
+
+      function memberhide4() {
+        const member4 = document.querySelector(".popup3");
+        member4.style.display = "none";
+      }
+
+      function scrollsei(){
+        window.scrollTo(0,700);
+      }
+
+      function scrollsei2(){
+        window.scrollTo(0,300);
+      }
+
+      function teams(){
+        window.scrollTo(0,980);
+      }
+
+      function teams2(){
+        window.scrollTo(0,1500);
+      }
+
+      function home(){
+        window.scrollTo(0,90);
+      }
+
+      function home2(){
+        window.scrollTo(0,85);
+      }
+    </script>
+  </body>
+</html>
